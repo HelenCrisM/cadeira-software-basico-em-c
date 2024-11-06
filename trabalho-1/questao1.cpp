@@ -14,17 +14,17 @@ Write your code in this editor and press "Run" button to compile and execute it.
 #include <time.h>
 
 int main(void) {
-  struct tm *hora_atual_em_segundos;     
+  struct tm *funcao_hora_atual;     
   
   time_t segundos;
   
   time(&segundos);   
   
-  hora_atual_em_segundos = localtime(&segundos);
+  funcao_hora_atual= localtime(&segundos);
 
-  int hora_atual = hora_atual_em_segundos -> tm_hour;
+  int hora_atual = funcao_hora_atual-> tm_hour;
 
-  int minuto_atual = hora_atual_em_segundos -> tm_min;
+  int minuto_atual = funcao_hora_atual-> tm_min;
   
   printf("\nHora ........: %d:%d ", hora_atual, minuto_atual);
   
