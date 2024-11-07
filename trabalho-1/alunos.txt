@@ -1,0 +1,10 @@
+ALguem Silva;12345;8.5
+Maria ALguem Oliveira;67890;9.2
+rafael Santos;54321;7.0
+Ana Maria Braga;11223;9.5
+Carlos Gonzaga;33445;6.8
+Lima Limao;55667;8.0
+Pera Pereira;77889;7.5
+Patrícia Fulano;99001;10.0
+Ricardo Sicrano Alves;22334;6.2
+Cláudia Martins Pereira;44556;7.8
