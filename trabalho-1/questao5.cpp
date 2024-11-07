@@ -3,7 +3,6 @@
 #include <ctype.h>
 #include <string.h>
 
-// Função para converter string para minúsculas
 void minusculo(char s1[], char s2[]) {
     int i = 0;
     while (s1[i] != '\0') {
