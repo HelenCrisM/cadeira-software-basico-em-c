@@ -1,3 +1,12 @@
+// Escreva um programa que dado uma frase (string com espaços) e uma palavra, busque a quantidade de
+// vezes que a palavra aparece na frase desconsiderando diferenças entre letras minúsculas e maiúsculas (use tolower ou toupper).
+
+
+// Tutorial que utilizei como base para criar código: https://petbcc.ufscar.br/ctypefuncoes/
+// Tutorial que utilizei como base para criar código: https://wagnergaspar.com/como-converter-uma-string-em-maiusculo-ou-minusculo-em-qualquer-so-com-a-linguagem-c/
+//  Tutorial que utilizei como base para criar código: https://www.guj.com.br/t/resolvido-como-comparar-strings-em-c/283211
+//  Tutorial que utilizei como base para criar código: https://www.clubedohardware.com.br/forums/topic/1499727-recursividade-comparar-caracteres-de-duas-strings/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
