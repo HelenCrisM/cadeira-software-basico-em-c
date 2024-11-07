@@ -34,16 +34,16 @@ int main() {
 
     FILE *arquivo = fopen("file_exemplo.txt", "r");
     if (arquivo == NULL) {
-        printf("Erro ao abrir o arquivo!\n");
+        printf("O arquivo nao existe!\n");
         return 1; 
     }
 
     while (fgets(linha, sizeof(linha), arquivo) != NULL) {
-        char linha_minuscula[500];
-        minusculo(linha, linha_minuscula); 
+        char linha_palavra_minuscula[500];
+        minusculo(linha, linha_palavra_minuscula); 
 
 
-        char *palavra_frase = strtok(linha_minuscula, " ");
+        char *palavra_frase = strtok(linha_palavra_minuscula, " ");
         while (palavra_frase != NULL) {
             if (strcmp(palavra_frase, palavra_minuscula) == 0) {
                 cont++; 
@@ -54,7 +54,7 @@ int main() {
 
     fclose(arquivo);
 
-    printf("A palavra '%s' aparece %d vezes no arquivo.\n", palavra, cont);
+    printf("A palavra '%s' aparece %d vezes\n", palavra, cont);
 
     return 0;
 }
