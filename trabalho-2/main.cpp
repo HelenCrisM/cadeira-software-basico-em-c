@@ -30,7 +30,7 @@ int ProdutoVetorial(int inicio, int fim) {
     return soma;
 }
 
-void *produto(void *arg) {
+void * produto(void *arg) {
     int id = *((int *)arg);
     int intervalo = TAM_VETOR / NUM_THREADS;
     int inicio = id * intervalo;
